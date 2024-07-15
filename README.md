@@ -7,12 +7,12 @@ A custom React hook for uploading images to Cloudinary.
 
 With `npm`:
 ```
-npm install --save use-image
+npm install --save use-photo
 ```
 
 With `yarn`:
 ```
-yarn add use-image
+yarn add use-photo
 ```
 
 ## 🖥️ Usage
