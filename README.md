@@ -30,19 +30,18 @@ This is the unique identifier for your Cloudinary account. For example, if your 
 This is the name of the preset you created in the Cloudinary dashboard. If you created a preset named my-upload-preset, replace 'your-upload-preset' with 'my-upload-preset'.
 
 
-With `REST`:
-```js
-import React, { useState } from 'react';
+```ts
+import React, { useState, ChangeEvent } from 'react';
 import { usePhoto } from 'use-photo';
 
-const App = () => {
+const App: React.FC = () => {
   const { upload, error, uploading, result } = usePhoto(
     'your-cloud-name', // Your Cloudinary cloud name
     'your-upload-preset' // Your Cloudinary upload preset
   );
-  const [file, setFile] = useState(null);
+  const [file, setFile] = useState<File | null>(null);
 
-  const handleFileChange = (event) => {
+  const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
     if (event.target.files) {
       setFile(event.target.files[0]);
     }
