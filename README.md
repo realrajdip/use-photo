@@ -21,10 +21,11 @@ First, import the usePhoto hook and use it in your component. Make sure to repla
 
 ## ✅ Cloudinary Configuration
 
-Cloud Name:
+`Cloud Name`:
 
 This is the unique identifier for your Cloudinary account. For example, if your Cloudinary cloud name is my-cloud-name, you should replace 'your-cloud-name' with 'my-cloud-name'.
-Upload Preset:
+
+`Upload Preset`:
 
 This is the name of the preset you created in the Cloudinary dashboard. If you created a preset named my-upload-preset, replace 'your-upload-preset' with 'my-upload-preset'.
 
