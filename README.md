@@ -1,4 +1,4 @@
-#  use-image
+#  usePhoto 
 
 A custom React hook for uploading images to Cloudinary.
 
