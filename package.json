@@ -1,6 +1,6 @@
 {
   "name": "use-photo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom React hook for uploading images to Cloudinary",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
