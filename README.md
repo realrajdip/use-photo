@@ -17,7 +17,7 @@ yarn add use-photo
 
 ## 🖥️ Usage
 
-First, import the usePhoto hook and use it in your component. Make sure to replace 'your-cloud-name' and 'your-upload-preset' with your actual Cloudinary details.
+First of all, import the usePhoto hook and use it in your component. Make sure to replace 'your-cloud-name' and 'your-upload-preset' with your actual Cloudinary details.
 
 ## ✅ Cloudinary Configuration
 
@@ -32,7 +32,7 @@ This is the name of the preset you created in the Cloudinary dashboard. If you c
 
 ```ts
 import React, { useState, ChangeEvent } from 'react';
-import { usePhoto } from 'use-photo';
+import { usePhoto } from 'use-photo'; 
 
 const App: React.FC = () => {
   const { upload, error, uploading, result } = usePhoto(
